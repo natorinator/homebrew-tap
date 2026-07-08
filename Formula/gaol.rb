@@ -1,25 +1,25 @@
 class Gaol < Formula
   desc "Cross-platform container and VM management tool"
   homepage "https://github.com/natorinator/gaol-rs"
-  version "2026.4.27"
+  version "2026.7.7"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.4.27/gaol-macos-arm64"
-      sha256 "3d39dd288fea361d5433945235dee9248d10fe6851cbc97ff75f27c0600924ac"
+      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.7.7/gaol-macos-arm64"
+      sha256 "5bd549a0777d37ed2c51b1ac0af8014e2889c486f17a2ee811700be162030e19"
     end
 
     on_intel do
-      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.4.27/gaol-macos-x86_64"
-      sha256 "12b7ce0fafd4cfa6413810a846ee7a223498d126211df70f78c24dab2e82dfea"
+      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.7.7/gaol-macos-x86_64"
+      sha256 "14c6c68ec18b2bb3f76dffd52276ab6636db9f331baef2a32e5c197381fc4366"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.4.27/gaol-linux-x86_64"
-      sha256 "deda5b18e8f3d02d8aea6a1808d67983c3999294be8230c46a660cda838ddb01"
+      url "https://github.com/natorinator/gaol-rs/releases/download/v2026.7.7/gaol-linux-x86_64"
+      sha256 "b68075e2b6f60569567110f35a8b955bff40594a1a6524c948b6e69b1221bd95"
     end
   end
 
